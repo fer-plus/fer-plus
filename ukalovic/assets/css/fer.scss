@@ -17,3 +17,22 @@
 .team-item-one .team-content {
     min-height: 175px;
 }
+@media screen and (max-width: 768px) {
+    .pb-120 {
+        padding-bottom: 60px;
+    }
+    .pt-120 {
+        padding-top: 60px;
+    }
+    span.sub-title {
+        font-size: 18px;
+    }
+    .play-content-img {
+        
+        min-height: 240px;
+        max-height: 240px;
+    }
+    .counter-area-one {
+        padding-top: 320px;
+    }
+}
