@@ -73,6 +73,11 @@ a:hover {
 .header_menu.fixed-top .navbar.navbar-default .navbar-header .navbar-brand {
     max-width: 68px;
 }
+.nir-btn, .nir-btn-black {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 @media screen and (max-width: 768px) {
 
     .header_menu .navbar.navbar-default .navbar-header .navbar-brand {
