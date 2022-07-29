@@ -12,3 +12,10 @@ header = $.ajax({
         $('header').html(data);
     }
 });
+let footer = null;
+footer = $.ajax({
+    url: 'footer.html',
+    success: function(data) {
+        $('footer').html(data);
+    }
+});
