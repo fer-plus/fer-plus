@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="hr">
+ 	 <head>
+	<meta charset="utf-8">
+		<!-- IN HEAD.HTML-->
+	</head>
+  <body>
+    <header> <!-- IN HEADER.HTML--> </header>
+    <div class="catalogue-wrapper catalogue-item">
+		<div class="breadcrumb-item">
+			<div class="container">
+				<div class="breadcrumb-item"><a href="/">Naslovna</a> <span class="text-secondary">🠞</span> <a href="/pretraga">Katalog</a> <span class="text-secondary">🠞</span> <a href="#">Obitelj Draganić Vrančić (1434. – 1921.)</a></div>
+			</div>
+		</div>        
+		<div class="container">
+            <div class="row">
+				<div class="col-md-4">
+					<div class="detailed-item-image">
+						<div class="list-item-image">
+							<a href="#">
+								<img class="img-fluid" src="http://projekt-dv.dazd.hr/upload/Kut.%201/sign.%201.3.2.7/00000125.jpg" alt="Slika 2">
+							</a>
+						</div>
+						<a href="book-view.html" class="button-style-2">Otvori knjigu</a>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="list-items-wrapper mt-0">
+						<!-- LIST ITEM START -->
+						<div class="list-item">
+							<div class="row">
+								<div class="col-md-12 card-list">
+									<div class="position-relative ">
+										<div class="list-item-title bold-title-small mb-3">Knjiga Stanje duša i Knjiga onih koji se pričešćuju i ispovidaju</div>
+									</div>
+									<p class="item-attributes">
+										<span class="item--key">Mjesto: </span>
+										<span class="item--value">Brbinj</span>
+									</p>
+									<p class="item-attributes">
+										<span class="item--key">Proizvođač: </span>
+										<span class="item--value">Župni ured Brbinj</span>
+									</p>
+									<p class="item-attributes">
+										<span class="item--key">Godina: </span>
+										<span class="item--value">1651. – 1804.</span>
+									</p>
+									<p class="item-attributes">
+										<span class="item--key">Imatelj: </span>
+										<span class="item--value"><a href="#">Arhiv Zadarske nadbiskupije</a></span>
+									</p>
+									<p class="item-attributes">
+										<span class="item--key">Mjesto: </span>
+										<span class="item--value">Biograd na moru</span>
+									</p>
+									<p class="item-attributes">
+										<span class="item--key">Proizvođač: </span>
+										<span class="item--value">Župni ured Biograd na moru</span>
+									</p>
+									<p class="item-attributes">
+										<span class="item--key">Godina: </span>
+										<span class="item--value">XVII. i XVIII. st.</span>
+									</p>
+									<p class="item-attributes">
+										<span class="item--key">Imatelj: </span>
+										<span class="item--value"><a href="#">Arhiv Zadarske nadbiskupije</a></span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- LIST ITEM END -->
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/ajax.js"></script>
+
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<script>
+		$(function() {
+			$('#dateFrom').daterangepicker({ 
+			startDate: '01/01/1000',
+			singleDatePicker: true,
+			showDropdowns: true, 
+			minDate: "01/01/1000"});
+			$('#dateTo').daterangepicker({
+				startDate: '01/01/1000',
+			singleDatePicker: true,
+			showDropdowns: true, 
+			minDate: "01/01/1000"});
+		});
+		</script>
+  </body>
+</html>

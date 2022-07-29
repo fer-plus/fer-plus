@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+        <meta charset="utf-8">
+      <!-- IN HEAD.HTML--></head>
+  <body>
+    <header> <!-- IN HEADER.HTML--> </header>
+    <div class="inner-page-wrapper">
+        <div class="container text-center">
+            <h2>Javite nam se ili nam pošaljite poruku</h2>
+            <p>Molimo vas ispunite polja informacijama i mi ćemo odgovoriti na vaš upit što je prije moguće.</p>
+            <form method="POST" action="" accept-charset="UTF-8" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <input class="form-input form-control" placeholder="Ime i prezime" required="" name="name" type="text">
+                    </div>
+                    <!-- end form-group -->
+                    <div class="form-group col-md-4">
+                        <input class="form-input form-control" placeholder="E-mail" required="" name="email" type="email">
+                    </div>
+                    <!-- end form-group -->
+                    <div class="form-group col-md-4">
+                        <input class="form-input form-control" placeholder="Telefon" required="" name="phone" type="text">
+                    </div>
+                </div>
+        
+                <!-- end form-group -->
+                <div class="form-group">
+                    <textarea  class="form-input form-control" placeholder="Poruka" required="" name="message" ></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox checkbox2">
+                        <label class="container2">
+                            <input id="potvrdi" name="potvrdi" type="checkbox" required="">
+                            <span class="checkmark"> </span>
+                            <span class="span-agree"> Slažem se</span>
+                        </label>
+                        <div class="modal-privola-text">
+                            
+                            Korištenjem ovog obrasca prihvaćate da ste upoznati s <a href="/hr/pravila-o-privatnosti"> pravilima o privatnosti </a> i da
+                            prihvaćate prikupljanje i obradu osobnih podataka danih u obrascu
+                            bez kojih vaš zahtjev u obrascu ne može biti ispunjen.
+
+                        </div>
+                    </div>
+                </div>
+                <!-- end form-group -->
+                <div class="form-group">
+                    <input class="button-style-1 " type="submit" value="Pošalji upit">
+                </div>
+                <!-- end form-group -->
+            </form>
+            <!-- end contact-form -->
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax.js"></script>
+  </body>
+</html>

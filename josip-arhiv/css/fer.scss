@@ -292,6 +292,16 @@ header .navbar .navbar-toggler {
         }
     }
 }
+.page-title {
+    h1 {
+        display: inline-block;
+        margin: 5vh 0;
+        /* padding: 15px; */
+        /* background-color: #ebd6d2; */
+        font-size: 3.5rem;
+    }
+}
+
 .catalogue-wrapper {
     background: rgba(255, 254, 248, 0.90);
     padding: 60px 0;

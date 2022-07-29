@@ -30,7 +30,7 @@
 
 		{
 
-			$mail_to = 'info@villaperina.eu';
+			$mail_to = 'uprava@asseriacentar.eu';
 			$subject = 'Nova poruka od '.$field_name;
 			$body_message = 'Poruku poslao: '.$field_name."\n";
 			$body_message .= 'E-mail: '.$field_sender."\n";
@@ -48,7 +48,7 @@
 		?>
 
 		<script language="javascript" type="text/javascript">
-			alert('Poruka nije poslana, molimo ispunite sva polja');
+			alert('Poruka nije poslana, molimo ispunite sva potrebna polja');
 			window.location = '/';
 		</script>
 	<?php

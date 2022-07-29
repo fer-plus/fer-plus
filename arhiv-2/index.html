@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="hr">
+
+<head>
+	<!-- IN HEAD.HTML-->
+</head>
+
+
+<body>
+	<header>
+		<!-- IN HEADER.HTML-->
+	</header>
+	<div class="page-title">
+		<div class="container">
+			<h1>Teatro Nuovo – Teatro Verdi</h1>
+		</div>
+	</div>
+	<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="container">
+					<div class="main-cover" style="background-image: url(/images/cover-1.jpg);"></div>
+				</div>
+			</div>
+		</div>
+		<!-- <button class="carousel-control-prev" type="button" data-target="#carousel" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-target="#carousel" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</button> -->
+	</div>
+	<div class="section mt-5">
+		<div class="carousel-form pb-5">
+			<div class="container">
+				<h2 class="main-cover-title d-block mb-3">Znanstveno-popularni projekt…</h2>
+				<p class="my-3">Lorem Ipsum je jednostavno probni tekst koji se koristi u tiskarskoj i slovoslagarskoj
+					industriji.
+					Lorem Ipsum postoji kao industrijski standard još od 16-og stoljeća.
+				</p>
+				<form class="mt-4">
+					<div class="input-group mb-3 ui search">
+						<input type="text" id="ui-search" class="prompt form-control" autocomplete="off"
+							placeholder="Unesite riječi za pretragu" aria-label="Unesite riječi za pretragu"
+							aria-describedby="button-addon2">
+						<div class="results"></div>
+						<div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="submit" id="button-addon2">
+								<span class="d-none d-sm-inline">Pretraži</span>
+								<svg class="d-inline d-sm-none" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+									fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+									<path
+										d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+								</svg>
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			
+		</div>
+	</div>
+	<main>
+		<div class="container">
+			<div class="categories">
+				<div class="card-deck">
+					<div class="card">
+						<img src="images/11.jpg" class="card-img-top" alt="...">
+						<div class="card-body pt-0">
+							<h5 class="card-title my-4">Baza podataka</h5>
+							
+							<a href="#" class="open button w-100">Pretraži</a>
+	
+						</div>
+	
+					</div>
+					<div class="card">
+						<img src="images/cover22.jpg" class="card-img-top" alt="...">
+						<div class="card-body pt-0">
+							<h5 class="card-title my-4">O kazalištu</h5>
+							<a href="#" class="open button w-100">Pretraži</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="images/cover3.jpg" class="card-img-top" alt="...">
+						<div class="card-body pt-0">
+							<h5 class="card-title my-4">Virtualno kazalište</h5>
+							<a href="#" class="open button w-100">Pretraži</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="logos-wrapper">
+				<a class="footer-logo w-100 d-none d-md-flex justify-content-center align-items-center"
+					href="/index.html">
+					<img class="logo-img img-fluid" src="https://www.dazd.hr/images/logo.png" alt="">
+				</a>
+				<a class="footer-logo w-100 d-none d-md-flex justify-content-center align-items-center"
+					href="/index.html">
+					<img class="logo-img img-fluid" src="https://www.dazd.hr/images/logo.png" alt="">
+				</a>
+				<a class="footer-logo w-100 d-none d-md-flex justify-content-center align-items-center"
+					href="/index.html">
+					<img class="logo-img img-fluid" src="https://www.dazd.hr/images/logo.png" alt="">
+				</a>
+			</div>
+		</div>
+	</footer>
+	<!-- Bootstrap JS -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/ajax.js"></script>
+	<script src="ui-search/search.js"></script>
+
+	<script>
+		var categoryContent = [{
+				category: 'South America',
+				title: 'Brazil'
+			},
+			{
+				category: 'South America',
+				title: 'Peru'
+			},
+			{
+				category: 'North America',
+				title: 'Canada'
+			},
+			{
+				category: 'Aasia',
+				title: 'South Korea'
+			},
+			{
+				category: 'Asia',
+				title: 'Japan'
+			},
+			{
+				category: 'Asiea',
+				title: 'China'
+			},
+			{
+				category: 'Europe',
+				title: 'Denmark'
+			},
+			{
+				category: 'Euwrope',
+				title: 'England'
+			},
+			{
+				category: 'Eurowpe',
+				title: 'France'
+			},
+			{
+				category: 'Eurwope',
+				title: 'Germany'
+			},
+			{
+				category: 'Africa',
+				title: 'Ethiopia'
+			},
+			{
+				category: 'Afzrica',
+				title: 'Nigeria'
+			},
+			{
+				category: 'Afruica',
+				title: 'Zimbabwe'
+			},
+			{
+				category: 'South America',
+				title: 'Brazil'
+			},
+			{
+				category: 'South America',
+				title: 'Peru'
+			},
+			{
+				category: 'North America',
+				title: 'Cdanada'
+			},
+			{
+				category: 'Asia',
+				title: 'South Korea'
+			},
+			{
+				category: 'Asia',
+				title: 'Jadpan'
+			},
+			{
+				category: 'Asia',
+				title: 'Cdhina'
+			},
+			{
+				category: 'Euqrope',
+				title: 'Denmdark'
+			},
+			{
+				category: 'Eurowpe',
+				title: 'Engldand'
+			},
+			{
+				category: 'Eurzope',
+				title: 'Fradnce'
+			},
+			{
+				category: 'Eurqope',
+				title: 'Germany'
+			},
+			{
+				category: 'Africa',
+				title: 'Ethiopia'
+			},
+			{
+				category: 'Afrasica',
+				title: 'Nidgeria'
+			},
+			{
+				category: 'Afriaca',
+				title: 'Zimbabwae'
+			},
+			{
+				category: 'Souaath America',
+				title: 'Braazil'
+			},
+			{
+				category: 'South America',
+				title: 'Peru'
+			},
+			{
+				category: 'uortah America',
+				title: 'Canada'
+			},
+			{
+				category: 'Aszia',
+				title: 'South Korea'
+			},
+			{
+				category: 'Ausaia',
+				title: 'Japdaan'
+			},
+			{
+				category: 'Asiaope',
+				title: 'Dendmark'
+			},
+			{
+				category: 'Eurwope',
+				title: 'Endgland'
+			},
+			{
+				category: 'Euroape',
+				title: 'France'
+			},
+			{
+				category: 'Eurowpe',
+				title: 'Gerqmany'
+			},
+			{
+				category: 'Afraica',
+				title: 'Ethiogpia'
+			},
+			{
+				category: 'Africa',
+				title: 'Nigearia'
+			},
+			{
+				category: 'Africa',
+				title: 'Zimbabwe'
+			},
+		];
+
+		$('.ui.search')
+			.search({
+				type: 'category',
+				source: categoryContent
+			});
+	</script>
+</body>
+
+</html>
