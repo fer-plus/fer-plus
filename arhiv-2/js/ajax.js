@@ -5,6 +5,7 @@ head = $.ajax({
         $('head').html(data);
     }
 });
+
 let header = null;
 header = $.ajax({
     url: 'header.html',
@@ -12,6 +13,7 @@ header = $.ajax({
         $('header').html(data);
     }
 });
+
 let footer = null;
 footer = $.ajax({
     url: 'footer.html',
